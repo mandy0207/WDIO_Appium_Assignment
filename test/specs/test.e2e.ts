@@ -20,7 +20,7 @@ describe('My Demo App', () => {
       await loginPage.login(username, password);
 
       await productsPage.waitForProductsToLoad();
-      const titles =  productsPage.productTitles;
+      const titles = await productsPage.productTitles;
       expect(titles.length).toBeGreaterThan(0);
 
       await productsPage.selectProduct(productName);
