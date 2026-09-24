@@ -1,0 +1,12 @@
+{
+    "users": {
+        "standard": {
+            "username": "standard_user",
+            "password": "secret_sauce"
+        }
+    },
+    "products": {
+        "backpackViolet": "Sauce Labs Backpack (violet)",
+        "swagHeader": "Your new swag is on its way"
+    }
+}
